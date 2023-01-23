@@ -1,0 +1,339 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.main
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 800px;
+   height: 600px;
+   background: rgba(255,255,255,.9);
+   border-radius: 15px;
+}
+
+.main button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(340%, -1000%);
+	width: 70px;
+	height: 28px;
+	background: none;
+	outline: none;
+	border: 1px solid #0030f2;
+	border-radius: 30px;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 700;
+	color: #0030f2;
+	cursor: pointer;
+}
+.main button:hover
+{
+	color: #fff;
+	background: #126bff;
+}
+.main li
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(280%, -2250%);
+	list-style: none;
+	font-size: 11px;
+	font-weight: 700;
+	font-family: arial;
+	opacity: 70%;
+	cursor: pointer;
+
+}
+.main li:hover{
+	opacity: 100%;
+}
+
+.main ul
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(80%, -2345%);
+	list-style: none;
+	font-size: 11px;
+	font-weight: 700;
+	font-family: arial;
+	opacity: 70%;
+	cursor: pointer;
+
+}
+.main ul:hover{
+	opacity: 100%;
+}
+
+
+.main h1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(80%, -2302%);
+	list-style: none;
+	font-size: 11px;
+	font-weight: 700;
+	font-family: arial;
+	opacity: 70%;
+	cursor: pointer;
+
+}
+.main h1:hover{
+	opacity: 100%;
+}
+
+
+
+.main h2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-80%, -2305%);
+	list-style: none;
+	font-size: 11px;
+	font-weight: 700;
+	font-family: arial;
+	opacity: 70%;
+	cursor: pointer;
+
+}
+.main h2:hover{
+	opacity: 100%;
+}
+
+
+.main h3
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-320%, -2325%);
+	list-style: none;
+	font-size: 11px;
+	font-weight: 700;
+	font-family: arial;
+	opacity: 70%;
+	cursor: pointer;
+
+}
+.main h3:hover{
+	opacity: 100%;
+}
+
+.main .img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(30%, -80%);
+	width: 250px;
+	height: 250px;
+	background: #126bff;
+	border-radius: 109px;
+}
+
+.main .img img[src="afg.jpg"]
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-55%, -45%);
+	width: 250px;
+	height: 250px;
+	border: 4px solid #fff;
+	border-radius: 110px;
+}
+.second img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-745%, -530%);
+	width: 50px;
+	height: 50px;
+	background: #1a76ff;
+	border-radius: 50px;
+
+}
+.second a img[src="play.png"]
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-255%, -195%);
+	background: none;
+	width: 90px;
+	height: 30px;
+	cursor: pointer;
+
+}
+.second input[type="submit"]
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-360%, -200%);
+	width: 90px;
+	height: 29px;
+	background: #0467fc;
+	color: #fff;
+	outline:none;
+	border: none;
+	border-radius: 50px;
+	font-size: 11px;
+	cursor: pointer;
+
+}
+.second ul
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-415%, -1580%);
+    font-size: 12px;
+    color: black;
+    font-family: arial;
+}
+.second p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-140%, -1000%);
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 700;
+
+}
+.second h1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-112%, -450%);
+	width: 290px;
+	height: 30px;
+	font-size: 11px;
+	font-family: arial;
+	
+}
+
+.second img[src="pic.png"]
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-800%, 500%);
+	width: 34px;
+	height: 34px;
+	background: none;
+}
+
+.second img[src="sweft.png"]
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 460%);
+	width: 34px;
+	height: 36px;
+	background: none;
+}
+
+.second img[src="wifi.png"]
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(650%, 480%);
+	width: 34px;
+	height: 34px;
+	background: none;
+}
+.second h2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-490%, 1650%);
+	font-family: arial;
+	font-weight: 700;
+	font-size: 11px;
+}
+.second h3
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-232%, 430%);
+	font-family: arial;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	font-size: 9px;
+}
+.second h4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-51%, 1650%);
+	font-family: arial;
+	font-weight: 700;
+	font-size: 11px;
+}
+.second li
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-52%, 460%);
+	font-family: arial;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	font-size: 9px;
+	font-weight: 600;
+	list-style: none;
+}
+.second h5
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(400%, 1550%);
+	font-family: arial;
+	font-weight: 700;
+	font-size: 11px;
+}
+.second h6
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(122%, 405%);
+	font-family: arial;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	font-size: 9px;
+	font-weight: 600;
+	list-style: none;
+}
